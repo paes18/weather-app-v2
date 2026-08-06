@@ -33,46 +33,46 @@ type WeatherType =
     | "Haze";
     const weatherAssets: Record<WeatherType, WeatherAsset> = {
 
-    Clear:{
-        icon:"assets/icons/sunny.png",
-        video:"assets/video/sunny.mp4"
-    },
+   Clear: {  
+    icon: "/assets/icons/sunny.png",
+    video: "/assets/video/sunny.mp4"
+  },
 
-    Clouds:{
-        icon:"assets/icons/cloudy.png",
-        video:"assets/video/cloudy.mp4"
-    },
+  Clouds: {
+    icon: "/assets/icons/cloudy.png",
+    video: "/assets/video/cloudy.mp4"
+  },
 
-    Rain:{
-        icon:"assets/icons/rain.png",
-        video:"assets/video/rain.mp4"
-    },
+  Rain: {
+    icon: "/assets/icons/rain.png",
 
-    Thunderstorm:{
-        icon:"assets/icons/storm.png",
-        video:"assets/video/rain.mp4"
-    },
+    video: "/assets/video/rain.mp4"
+  },
 
-    Drizzle:{
-        icon:"assets/icons/rain.png",
-        video:"assets/video/rain.mp4"
-    },
+  Thunderstorm: {
+    icon: "/assets/icons/storm.png",
+    video: "/assets/video/rain.mp4"
+  },
 
-    Mist:{
-        icon:"assets/icons/mist.png",
-        video:"assets/video/cloudy.mp4"
-    },
+  Drizzle: {
+    icon: "/assets/icons/rain.png",
+    video: "/assets/video/rain.mp4"
+  },
 
-    Fog:{
-        icon:"assets/icons/mist.png",
-        video:"assets/video/cloudy.mp4"
-    },
+  Mist: {
+    icon: "/assets/icons/mist.png",
+    video: "/assets/video/cloudy.mp4"
+  },
 
-    Haze:{
-        icon:"assets/icons/mist.png",
-        video:"assets/video/cloudy.mp4"
-    }
+  Fog: {
+    icon: "/assets/icons/mist.png",
+    video: "/assets/video/cloudy.mp4"
+  },
 
+  Haze: {
+    icon: "/assets/icons/mist.png",
+    video: "/assets/video/cloudy.mp4"
+  }
 };
 const apiKey = import.meta.env.VITE_API_KEY;
 
